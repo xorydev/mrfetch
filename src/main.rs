@@ -19,7 +19,7 @@ fn main() {
 \x1B[38:5:15m│\x1B[38:5:45m • Uptime (minutes): {}
 \x1B[38:5:15m│\x1B[38:5:165m • Shell: {}
 \x1B[38:5:15m│\x1B[38:5:201m • RAM: {}GB
-\x1B[38:5:15m┘\x1B[38:5:219m • CPU: {} ",
+\x1B[38:5:15m┘\x1B[38:5:219m • CPU: {} \x1B[38:5:15m",
   figlet, machine.user, machine.hostname, machine.kernel, machine.uptime, machine.shell, machine.ramtotal, machine.cpu);
 
 }
